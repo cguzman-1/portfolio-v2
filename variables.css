@@ -1,0 +1,20 @@
+:root {
+/* colors */
+    --color-bg: #FFFFF7;
+    --color-text: ;
+    --color-accent: #E0D331;
+    --color-accent2: ;
+    --color-accent3: ;
+
+/* typography */
+    --font-primary: "Inter", sans-serif;
+
+/* spacing */
+    --space-sm: ;
+    --space-md: ;
+    --space-lg: ;
+    --space-xl: ;
+
+/* sizing */
+    --container-width: min(90%, 1200px); /* Use 90% viewport width until reaching a max width of 1200px */
+}
