@@ -1,19 +1,23 @@
 :root {
 /* colors */
     --color-bg: #FFFFF7;
-    --color-text: ;
-    --color-accent: #E0D331;
-    --color-accent2: ;
-    --color-accent3: ;
+    --color-text: #000B32;
+    --color-accent1: #E0D331;
+    --color-accent2: #5F6369;
+    --color-accent3: #7C0D1E;
 
 /* typography */
     --font-primary: "Inter", sans-serif;
 
 /* spacing */
-    --space-sm: ;
-    --space-md: ;
-    --space-lg: ;
-    --space-xl: ;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 2.5rem;
+    --space-3xl: 3rem;
+    --space-4xl: 3.5rem;
+    --space-5xl: 4rem;
 
 /* sizing */
     --container-width: min(90%, 1200px); /* Use 90% viewport width until reaching a max width of 1200px */

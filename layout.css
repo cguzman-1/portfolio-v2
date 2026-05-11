@@ -1,0 +1,45 @@
+.container {
+    width: var(--container-width);
+    margin-inline: auto;
+    margin-block: var(--space-2xl);
+}
+
+#hero {
+    min-height: 100vh;
+    border: 1px solid red;
+}
+
+#hero > h2 {
+    border: 1px solid red;
+}
+
+#hero > p {
+    border: 1px solid red;
+}
+
+body {
+    border: 2px solid blue;
+}
+
+#projects {
+    border: 1px solid blueviolet;
+}
+
+.project {
+    border: 1px solid violet;
+    margin: var(--space-md);
+    padding: var(--space-md);
+}
+
+#about-me {
+    border: 1px solid green;
+    padding-block: var(--space-5xl);
+}
+
+#about-me > h2 {
+    border: 1px solid green;
+}
+
+#about-me > p {
+    border: 1px solid green;
+}
