@@ -27,8 +27,11 @@ body {
 
 .project {
     border: 1px solid violet;
-    margin: var(--space-md);
+    margin-block: var(--space-2xl);
+    margin-inline: auto;
     padding: var(--space-md);
+    min-height: 60vh;
+    width: var(--container-width);
 }
 
 #about-me {
