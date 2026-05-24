@@ -1,8 +1,9 @@
 :root {
 /* colors */
-    --color-bg: #FFFFF7;
+    --color-bg: #1A1612;
+    --color-bg2: #EBE3D9;
     --color-text: #000B32;
-    --color-accent1: #E0D331;
+    --color-accent1: #BC916E;
     --color-accent2: #5F6369;
     --color-accent3: #7C0D1E;
 
