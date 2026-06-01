@@ -1,11 +1,24 @@
 .container {
     width: var(--container-width);
     margin-inline: auto;
-    margin-block: var(--space-2xl);
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    padding: var(--space-sm);
+}
+
+.nav-list > li {
+    padding-inline: var(--space-sm);
 }
 
 #hero {
-    min-height: 100vh;
     border: 1px solid red;
 }
 
@@ -27,16 +40,15 @@ body {
 
 .project {
     border: 1px solid violet;
-    margin-block: var(--space-2xl);
+    margin-block: var(--space-md);
     margin-inline: auto;
     padding: var(--space-md);
-    min-height: 60vh;
     width: var(--container-width);
 }
 
 #about-me {
     border: 1px solid green;
-    padding-block: var(--space-5xl);
+    padding-block: var(--space-md);
 }
 
 #about-me > h2 {
@@ -45,4 +57,18 @@ body {
 
 #about-me > p {
     border: 1px solid green;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list {
+    display: flex;
+    padding: var(--space-sm);
+}
+
+.contact-list > li {
+    padding-inline: var(--space-sm);
 }
