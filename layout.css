@@ -12,6 +12,7 @@ nav {
 .nav-list {
     display: flex;
     padding: var(--space-sm);
+    white-space: nowrap;
 }
 
 .nav-list > li {
